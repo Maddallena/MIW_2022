@@ -218,6 +218,7 @@ def centra_masy(lista_list):
 
         for el in range(len(lista_z_klasami)):
             if lista_z_klasami[el][-1] != kolejny_podzial[el][-1]:
+               lista_z_klasami = kolejny_podzial
                 zmiana = True
             else:
                 zmiana = False
